@@ -17,7 +17,7 @@ build:
 
 requirements:
   host:
-    - pip
+    - pip <22
     - pyquickhelper
     - python {{ python_min }}
     - setuptools <58
