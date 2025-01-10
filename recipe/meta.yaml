@@ -20,7 +20,7 @@ requirements:
     - pip
     - pyquickhelper
     - python {{ python_min }}
-    - setuptools
+    - setuptools <58
   run:
     - python >={{ python_min }}
 
